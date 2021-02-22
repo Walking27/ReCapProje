@@ -1,0 +1,83 @@
+﻿using Business.Abstract;
+using Business.Constants;
+using Core.Entities;
+using Core.Utilities.Results;
+using DataAccess.Abstract;
+using Entities.Concrate;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Business.Concrate
+{
+    public class CarManager : ICarService
+    {
+        ICarDal _carDal;
+
+        public CarManager(ICarDal carDal)
+        {
+            _carDal = carDal;
+        }
+        public Result Add(Car car)
+        {
+            //business code
+
+            if (car.Description.Length < 2)
+            {
+                return new ErrorResault(Messages.CarAdded);
+            }
+            _carDal.Add(car);
+
+            return new Result(true, "Araba Eklendi");
+        }
+
+        public void Delete(Car car)
+        {
+            _carDal.Delete(car);
+        }
+
+        public IDataResult<List<Car>> GetAll()
+        {
+            if (DateTime.Now.Hour == 22)
+            {
+                return new ErrorDataResult<List<Car>>(Messages.MaintenanceTime);
+            }
+            return new SuccessDataResult<List<Car>>(_carDal.GetAll(), Messages.CarsListed);
+        }
+        public IDataResult<List<Car>> GetById(int Id)
+        {
+            return new SuccessDataResult<List<Car>>(_carDal.Get(p=>p.Id==Id));
+        }
+
+        public List<Car> GetByUnitPrice(decimal min, decimal max)
+        {
+            return _carDal.GetAll(p => p.DailyPrice >= min && p.DailyPrice <= max);
+        }
+
+        public List<CarDetailDTO> GetCarDetails()
+        {
+            return _carDal.GetCarDetails();
+        }
+        public void Update(Car car)
+        {
+            _carDal.Update(car);
+        }
+
+        IResult ICarService.Add(Car car)
+        {
+            throw new NotImplementedException();
+        }
+
+        IDataResult<List<Car>> ICarService.GetByUnitPrice(decimal min, decimal max)
+        {
+            return (IDataResult<List<Car>>)_carDal.GetAll(p => p.DailyPrice >= min && p.DailyPrice <= max);
+        }
+
+        IDataResult<List<Car>> ICarService.GetCarDetails()
+        {
+            throw new NotImplementedException();
+        }
+
+        
+    }
+}
