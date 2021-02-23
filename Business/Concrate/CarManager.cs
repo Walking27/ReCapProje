@@ -46,17 +46,17 @@ namespace Business.Concrate
         }
         public IDataResult<List<Car>> GetById(int Id)
         {
-            return new SuccessDataResult<List<Car>>(_carDal.Get(p=>p.Id==Id));
+            return new SuccessDataResult<List<Car>>(_carDal.GetAll(), Messages.CarAdded);
         }
 
-        public List<Car> GetByUnitPrice(decimal min, decimal max)
+        public SuccessDataResult<List<Car>> GetByUnitPrice(decimal min, decimal max)
         {
-            return _carDal.GetAll(p => p.DailyPrice >= min && p.DailyPrice <= max);
+            return new SuccessDataResult<List<Car>>(data: _carDal.GetAll(p => p.DailyPrice >= min && p.DailyPrice <= max));
         }
 
-        public List<CarDetailDTO> GetCarDetails()
+        public IDataResult<List<CarDetailDTO>> GetCarDetails()
         {
-            return _carDal.GetCarDetails();
+            return new SuccessDataResult<List<CarDetailDTO>>(_carDal.GetCarDetails());
         }
         public void Update(Car car)
         {
@@ -73,11 +73,7 @@ namespace Business.Concrate
             return (IDataResult<List<Car>>)_carDal.GetAll(p => p.DailyPrice >= min && p.DailyPrice <= max);
         }
 
-        IDataResult<List<Car>> ICarService.GetCarDetails()
-        {
-            throw new NotImplementedException();
-        }
-
+       
         
     }
 }
