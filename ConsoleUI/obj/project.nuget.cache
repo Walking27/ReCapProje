@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "rO+LuYYcxJw8hgrdc3SBZe5syDXFP5CJIZ1TWlWDQBhyl+vq03F9Di3w73PsEAdgU30BrAWN0/bKkL3al1ao6g==",
+  "dgSpecHash": "V4Z3aRyXmOYbU+7rcd1xJ4s45GOnMnJYz9Y9cTokvNob551obs34+2MB696s1nD6RAAJJ1iJ/z7RuF6ZzQ47SQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Yusuf Özabuş\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
+    "C:\\Users\\Yusuf Özabuş\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
+    "C:\\Users\\Yusuf Özabuş\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\Yusuf Özabuş\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Yusuf Özabuş\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\Yusuf Özabuş\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
@@ -52,6 +55,7 @@
     "C:\\Users\\Yusuf Özabuş\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
     "C:\\Users\\Yusuf Özabuş\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
     "C:\\Users\\Yusuf Özabuş\\.nuget\\packages\\system.diagnostics.tools\\4.3.0\\system.diagnostics.tools.4.3.0.nupkg.sha512",
+    "C:\\Users\\Yusuf Özabuş\\.nuget\\packages\\system.diagnostics.tracesource\\4.3.0\\system.diagnostics.tracesource.4.3.0.nupkg.sha512",
     "C:\\Users\\Yusuf Özabuş\\.nuget\\packages\\system.diagnostics.tracing\\4.3.0\\system.diagnostics.tracing.4.3.0.nupkg.sha512",
     "C:\\Users\\Yusuf Özabuş\\.nuget\\packages\\system.dynamic.runtime\\4.3.0\\system.dynamic.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\Yusuf Özabuş\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
