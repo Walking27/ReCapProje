@@ -64,3 +64,4 @@ C:\Users\Yusuf Özabuş\source\repos\RecapProje\ConsoleUI\bin\Debug\netcoreapp3.
 C:\Users\Yusuf Özabuş\source\repos\RecapProje\ConsoleUI\bin\Debug\netcoreapp3.1\Autofac.Extras.DynamicProxy.dll
 C:\Users\Yusuf Özabuş\source\repos\RecapProje\ConsoleUI\bin\Debug\netcoreapp3.1\Castle.Core.dll
 C:\Users\Yusuf Özabuş\source\repos\RecapProje\ConsoleUI\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\Yusuf Özabuş\source\repos\RecapProje\ConsoleUI\bin\Debug\netcoreapp3.1\Autofac.Extensions.DependencyInjection.dll
