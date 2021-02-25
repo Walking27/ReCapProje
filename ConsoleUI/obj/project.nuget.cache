@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "V4Z3aRyXmOYbU+7rcd1xJ4s45GOnMnJYz9Y9cTokvNob551obs34+2MB696s1nD6RAAJJ1iJ/z7RuF6ZzQ47SQ==",
+  "dgSpecHash": "UEjtEe62dLzH/f69OHW1ATwuYqOGyY3TpGWEJv+sRvyJsWmH8ydRALyxL9zasDyVuYU7i5FDTXDvy8C5Jh6btQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yusuf Özabuş\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\Yusuf Özabuş\\.nuget\\packages\\autofac.extras.dynamicproxy\\6.0.0\\autofac.extras.dynamicproxy.6.0.0.nupkg.sha512",
     "C:\\Users\\Yusuf Özabuş\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
+    "C:\\Users\\Yusuf Özabuş\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",
     "C:\\Users\\Yusuf Özabuş\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Yusuf Özabuş\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\Yusuf Özabuş\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

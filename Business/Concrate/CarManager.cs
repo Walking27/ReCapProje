@@ -1,9 +1,12 @@
 ﻿using Business.Abstract;
 using Business.Constants;
+using Business.ValidationRules.FluentValidation;
+using Core.CrossCuttingConcerns.Validation;
 using Core.Entities;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrate;
+using FluentValidation;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -22,10 +25,8 @@ namespace Business.Concrate
         {
             //business code
 
-            if (car.Description.Length < 2)
-            {
-                return new ErrorResault(Messages.CarAdded);
-            }
+            ValidationTool.Validate(new CarValidator(), car);
+
             _carDal.Add(car);
 
             return new Result(true, "Araba Eklendi");
