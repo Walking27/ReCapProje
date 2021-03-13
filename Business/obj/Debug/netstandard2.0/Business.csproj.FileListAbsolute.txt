@@ -14,3 +14,19 @@ C:\Users\Yusuf Özabuş\source\repos\RecapProje\Business\obj\Debug\netstandard2.
 C:\Users\Yusuf Özabuş\source\repos\RecapProje\Business\obj\Debug\netstandard2.0\Business.csproj.CopyComplete
 C:\Users\Yusuf Özabuş\source\repos\RecapProje\Business\obj\Debug\netstandard2.0\Business.dll
 C:\Users\Yusuf Özabuş\source\repos\RecapProje\Business\obj\Debug\netstandard2.0\Business.pdb
+C:\Users\y0551\Source\Repos\ReCapProje\Business\bin\Debug\netstandard2.0\Business.deps.json
+C:\Users\y0551\Source\Repos\ReCapProje\Business\bin\Debug\netstandard2.0\Business.dll
+C:\Users\y0551\Source\Repos\ReCapProje\Business\bin\Debug\netstandard2.0\Business.pdb
+C:\Users\y0551\Source\Repos\ReCapProje\Business\bin\Debug\netstandard2.0\Core.dll
+C:\Users\y0551\Source\Repos\ReCapProje\Business\bin\Debug\netstandard2.0\DataAccess.dll
+C:\Users\y0551\Source\Repos\ReCapProje\Business\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\y0551\Source\Repos\ReCapProje\Business\bin\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\y0551\Source\Repos\ReCapProje\Business\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\y0551\Source\Repos\ReCapProje\Business\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\y0551\Source\Repos\ReCapProje\Business\obj\Debug\netstandard2.0\Business.csprojAssemblyReference.cache
+C:\Users\y0551\Source\Repos\ReCapProje\Business\obj\Debug\netstandard2.0\Business.AssemblyInfoInputs.cache
+C:\Users\y0551\Source\Repos\ReCapProje\Business\obj\Debug\netstandard2.0\Business.AssemblyInfo.cs
+C:\Users\y0551\Source\Repos\ReCapProje\Business\obj\Debug\netstandard2.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\y0551\Source\Repos\ReCapProje\Business\obj\Debug\netstandard2.0\Business.csproj.CopyComplete
+C:\Users\y0551\Source\Repos\ReCapProje\Business\obj\Debug\netstandard2.0\Business.dll
+C:\Users\y0551\Source\Repos\ReCapProje\Business\obj\Debug\netstandard2.0\Business.pdb

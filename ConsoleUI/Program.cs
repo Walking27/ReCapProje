@@ -19,14 +19,14 @@ namespace ConsoleUI
             {
                 foreach (var Car in result.Data)
             {
-                    Console.WriteLine(Car.BrandId + "/" + Car.DailyPrice);
+                    Console.WriteLine(Car.CarId + "/" + Car.BrandName);
                 }
             }
             else 
             {
                 Console.WriteLine(result.Message);
             }
-
+            Console.ReadKey();
             
         }
     }

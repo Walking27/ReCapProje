@@ -35,9 +35,9 @@ namespace DataAccess.Concrate.InMemory
             _carDals.Add(car);
         }
 
-        public void Delete(Car car)
+        public void Delete(Car carId)
         {
-            Car deletedToCar = _carDals.SingleOrDefault(c => c == car);
+            Car deletedToCar = _carDals.SingleOrDefault(c => c == carId);
 
             _carDals.Remove(deletedToCar);
         }

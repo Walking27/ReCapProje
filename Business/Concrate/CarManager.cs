@@ -22,21 +22,25 @@ namespace Business.Concrate
         {
             _carDal = carDal;
         }
+
         [ValidationAspect(typeof(CarValidator))]
-        public Result Add(Car car)
+        public IResult Add(Car car)
         {
             //business code
 
-            ValidationTool.Validate(new CarValidator(), car);
-
             _carDal.Add(car);
-
-            return new Result(true, "Araba Eklendi");
+            return new SuccessResult("Araba Eklendi");
         }
 
-        public void Delete(Car car)
+        public IResult Delete(Car car)
         {
             _carDal.Delete(car);
+            return new SuccessResult();
+        }
+
+        public IResult Delete(int car)
+        {
+            throw new NotImplementedException();
         }
 
         public IDataResult<List<Car>> GetAll()
@@ -52,7 +56,12 @@ namespace Business.Concrate
             return new SuccessDataResult<List<Car>>(_carDal.GetAll(), Messages.CarAdded);
         }
 
-        public SuccessDataResult<List<Car>> GetByUnitPrice(decimal min, decimal max)
+        public IDataResult<List<Car>> GetById(Car car)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IDataResult<List<Car>> GetByUnitPrice(decimal min, decimal max)
         {
             return new SuccessDataResult<List<Car>>(data: _carDal.GetAll(p => p.DailyPrice >= min && p.DailyPrice <= max));
         }
@@ -61,22 +70,13 @@ namespace Business.Concrate
         {
             return new SuccessDataResult<List<CarDetailDTO>>(_carDal.GetCarDetails());
         }
-        public void Update(Car car)
+        public IResult Update(Car car)
         {
             _carDal.Update(car);
+            return new SuccessResult();
         }
-
-        IResult ICarService.Add(Car car)
-        {
-            throw new NotImplementedException();
-        }
-
-        IDataResult<List<Car>> ICarService.GetByUnitPrice(decimal min, decimal max)
-        {
-            return (IDataResult<List<Car>>)_carDal.GetAll(p => p.DailyPrice >= min && p.DailyPrice <= max);
-        }
+      
 
        
-        
     }
 }

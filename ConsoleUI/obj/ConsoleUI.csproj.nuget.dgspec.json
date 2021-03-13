@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\ConsoleUI\\ConsoleUI.csproj": {}
+    "C:\\Users\\y0551\\source\\repos\\ReCapProje\\ConsoleUI\\ConsoleUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\Business\\Business.csproj": {
+    "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\Business\\Business.csproj",
-        "packagesPath": "C:\\Users\\Yusuf Özabuş\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\Business\\obj\\",
+        "projectPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\y0551\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Yusuf Özabuş\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\y0551\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\y0551\\source\\repos\\ReCapProje\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\Entities\\Entities.csproj"
+              "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Entities\\Entities.csproj"
               }
             }
           }
@@ -76,21 +76,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\ConsoleUI\\ConsoleUI.csproj": {
+    "C:\\Users\\y0551\\source\\repos\\ReCapProje\\ConsoleUI\\ConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\ConsoleUI\\ConsoleUI.csproj",
+        "projectUniqueName": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\ConsoleUI\\ConsoleUI.csproj",
         "projectName": "ConsoleUI",
-        "projectPath": "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\ConsoleUI\\ConsoleUI.csproj",
-        "packagesPath": "C:\\Users\\Yusuf Özabuş\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\ConsoleUI\\obj\\",
+        "projectPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\ConsoleUI\\ConsoleUI.csproj",
+        "packagesPath": "C:\\Users\\y0551\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\ConsoleUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Yusuf Özabuş\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\y0551\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -104,14 +104,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\Business\\Business.csproj"
+              "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Business\\Business.csproj"
               },
-              "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\y0551\\source\\repos\\ReCapProje\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\Entities\\Entities.csproj"
+              "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Entities\\Entities.csproj"
               }
             }
           }
@@ -140,21 +140,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\Core\\Core.csproj": {
+    "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\Yusuf Özabuş\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\Core\\obj\\",
+        "projectPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\y0551\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Yusuf Özabuş\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\y0551\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -217,21 +217,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\y0551\\source\\repos\\ReCapProje\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Yusuf Özabuş\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\y0551\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Yusuf Özabuş\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\y0551\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -245,11 +245,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\Core\\Core.csproj"
+              "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Core\\Core.csproj"
               },
-              "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\Entities\\Entities.csproj"
+              "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Entities\\Entities.csproj"
               }
             }
           }
@@ -285,21 +285,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\Entities\\Entities.csproj": {
+    "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\Yusuf Özabuş\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\y0551\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Yusuf Özabuş\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\y0551\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -313,8 +313,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Yusuf Özabuş\\source\\repos\\RecapProje\\Core\\Core.csproj"
+              "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Core\\Core.csproj"
               }
             }
           }
@@ -346,7 +346,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -11,7 +11,7 @@ using System.Linq;
 
 namespace DataAccess.Concrate.EntityFramwork
 {
-    public class EfCarDal : EfEntityReposiroryBase<Car, CarRentalContext>, ICarDal
+    public class EfCarDal : EfEntityRepositoryBase<Car, CarRentalContext>, ICarDal
     {
         public List<CarDetailDTO> GetCarDetails()
         {
@@ -19,13 +19,13 @@ namespace DataAccess.Concrate.EntityFramwork
             {
                 var result = from p in context.Brands
                              join c in context.Cars
-                             on p.BrandId equals c.BrandId
+                             on p.Id equals c.BrandId
                              select new CarDetailDTO
                              {
-                                 BrandId = c.Id,
-                                 DailyPrice = c.DailyPrice,
-                                 ModelYear = c.ModelYear,
-                                 Description = c.Description
+                                 CarId = c.Id,
+                                 BrandName =c.CarName,
+                                 ColorName = c.ModelYear,
+                                 CarName = c.Description
                              };
                 return result.ToList();
         }   
