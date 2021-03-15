@@ -27,9 +27,11 @@ namespace webAPI
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
+        //bekendte geride kaldýðým için bazý þeyler gözden kaçtý kaçýncý der s 12 mi 13 mü 13
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            //kaçýncý ders de kaldýðýn bura ya yazýn
             //services.AddSingleton<ICarService, CarManager>();
             //services.AddSingleton<ICarDal, EfCarDal>();
         }

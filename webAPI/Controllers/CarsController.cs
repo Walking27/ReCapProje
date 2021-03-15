@@ -16,15 +16,30 @@ namespace webAPI.Controllers
     public class CarsController : ControllerBase
     {
         ICarService _carService;
+
         public CarsController(ICarService carService)
         {
             _carService = carService;
         }
-        [HttpGet]
-        public List<Car> Get() 
+        [HttpGet("getall")]
+        public IActionResult GetAll() 
         {
             var result = _carService.GetAll();
-            return result.Data;
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+        [HttpGet("getcardetails")]
+        public IActionResult GetCarDetails()
+        {
+            var result = _carService.GetCarDetails();
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
         }
         [HttpPost("add")]
         public IActionResult Add(Car car)

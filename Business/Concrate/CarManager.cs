@@ -38,10 +38,6 @@ namespace Business.Concrate
             return new SuccessResult();
         }
 
-        public IResult Delete(int car)
-        {
-            throw new NotImplementedException();
-        }
 
         public IDataResult<List<Car>> GetAll()
         {
@@ -51,15 +47,7 @@ namespace Business.Concrate
             }
             return new SuccessDataResult<List<Car>>(_carDal.GetAll(), Messages.CarsListed);
         }
-        public IDataResult<List<Car>> GetById(int Id)
-        {
-            return new SuccessDataResult<List<Car>>(_carDal.GetAll(), Messages.CarAdded);
-        }
 
-        public IDataResult<List<Car>> GetById(Car car)
-        {
-            throw new NotImplementedException();
-        }
 
         public IDataResult<List<Car>> GetByUnitPrice(decimal min, decimal max)
         {
@@ -70,13 +58,17 @@ namespace Business.Concrate
         {
             return new SuccessDataResult<List<CarDetailDTO>>(_carDal.GetCarDetails());
         }
+
         public IResult Update(Car car)
         {
             _carDal.Update(car);
             return new SuccessResult();
         }
-      
 
-       
+        public IDataResult<Car> GetById(int Id)
+        {
+            return new SuccessDataResult<Car>(_carDal.Get(p => p.Id == Id), Messages.CarAdded);
+
+        }
     }
 }

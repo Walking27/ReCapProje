@@ -7,26 +7,26 @@ using System;
 
 namespace ConsoleUI
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
             CarManager carManager = new CarManager(new EfCarDal());
 
-            var result = carManager.GetCarDetails();
+            
 
-            if (result.Success == true)
-            {
-                foreach (var Car in result.Data)
-            {
-                    Console.WriteLine(Car.CarId + "/" + Car.BrandName);
-                }
-            }
-            else 
-            {
-                Console.WriteLine(result.Message);
-            }
-            Console.ReadKey();
+            //if (result.Success == true)
+            //{
+            //    foreach (var Car in result.Data)
+            //{
+            //        Console.WriteLine(Car.CarId + "/" + Car.BrandName);
+            //    }
+            //}
+            //else 
+            //{
+            //    Console.WriteLine(result.Message);
+            //}
+            //Console.ReadKey();
             
         }
     }
