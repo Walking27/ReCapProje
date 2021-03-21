@@ -10,6 +10,9 @@ namespace Business.Concrate
 {
     public class CarImageManager : ICarImageService
     {
+
+        ICarImageDal _carImageDal;
+
         public IResult Add(CarImage carımage)
         {
             throw new NotImplementedException();
@@ -22,15 +25,10 @@ namespace Business.Concrate
 
         public IDataResult<List<CarImage>> GetAll()
         {
-            throw new NotImplementedException();
+            return new SuccessDataResult<List<CarImage>>(_carImageDal.GetAll());
         }
 
         public IDataResult<List<CarImage>> GetById(int carImage)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IDataResult<List<CarImage>> GetByUnitPrice(decimal min, decimal max)
         {
             throw new NotImplementedException();
         }

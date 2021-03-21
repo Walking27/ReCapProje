@@ -70,5 +70,10 @@ namespace Business.Concrate
             return new SuccessDataResult<Car>(_carDal.Get(p => p.Id == Id), Messages.CarAdded);
 
         }
+
+        public IDataResult<List<Car>> GetAllByColorId(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

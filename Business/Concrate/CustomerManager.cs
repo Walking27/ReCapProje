@@ -10,34 +10,22 @@ namespace Business.Concrate
 {
     public class CustomerManager : ICustomerService
     {
-        public IResult Add(Customer customer)
-        {
-            throw new NotImplementedException();
-        }
+        ICustomerDal _customerDal;
 
-        public IResult Delete(int customer)
+        public CustomerManager(ICustomerDal customerDal)
         {
-            throw new NotImplementedException();
+            _customerDal = customerDal;
         }
 
         public IDataResult<List<Customer>> GetAll()
         {
-            throw new NotImplementedException();
+            //İş Kodları
+            return new SuccessDataResult<List<Customer>>(_customerDal.GetAll());
         }
 
-        public IDataResult<List<Customer>> GetById(int customer)
+        public IDataResult<List<Customer>> GetById(int categoryID)
         {
-            throw new NotImplementedException();
-        }
-
-        public IDataResult<List<Customer>> GetByUnitPrice(decimal min, decimal max)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IResult Update(Customer customer)
-        {
-            throw new NotImplementedException();
+            return new SuccessDataResult<List<Customer>>(_customerDal.GetAll(c => c.UserId == categoryID));
         }
     }
 }

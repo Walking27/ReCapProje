@@ -1,11 +1,11 @@
-﻿using Core.Entities;
+﻿using Core;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Entities.Concrate
+namespace Entities.DTOs
 {
-    public class Color:IEntity
+    public class ColorDetailDTO:IDto
     {
         public int ColorId { get; set; }
         public string ColorName { get; set; }

@@ -13,20 +13,21 @@ namespace DataAccess.Concrate.InMemory
     {
         List<Car> _carDals;
 
+
         public InMemoryCarDal()
         {
             _carDals = new List<Car>
             {
-                new Car{BrandId=1,Id=10,ColorId=78,DailyPrice=150,Description="Sahibinden satlık 0 ayarında",ModelYear="2018"},
-            new Car{BrandId=2,Id=20,ColorId=79,DailyPrice=100,Description="Sahibinden satlık 0 ayarında",ModelYear="2018"},
-            new Car{BrandId=3,Id=30,ColorId=80,DailyPrice=120,Description="Sahibinden satlık 0 ayarında",ModelYear="2018"},
-            new Car{BrandId=4,Id=40,ColorId=81,DailyPrice=180,Description="Sahibinden satlık 0 ayarında",ModelYear="2018"},
-            new Car{BrandId=5,Id=50,ColorId=82,DailyPrice=99,Description="Sahibinden satlık 0 ayarında",ModelYear="2018"},
-            new Car{BrandId=6,Id=60,ColorId=83,DailyPrice=100,Description="Sahibinden satlık 0 ayarında",ModelYear="2018"},
-            new Car{BrandId=7,Id=70,ColorId=84,DailyPrice=168,Description="Sahibinden satlık 0 ayarında",ModelYear="2018"},
-            new Car{BrandId=8,Id=80,ColorId=85,DailyPrice=125,Description="Sahibinden satlık 0 ayarında",ModelYear="2018"},
-            new Car{BrandId=9,Id=90,ColorId=86,DailyPrice=150,Description="Sahibinden satlık 0 ayarında",ModelYear="2018"},
-            new Car{BrandId=10,Id=100,ColorId=87,DailyPrice=128,Description="Sahibinden satlık 0 ayarında",ModelYear="2018"}
+                new Car{BrandId=11,Id=22,ColorId=2,DailyPrice=150,Description="Sahibinden satlık 0 ayarında",ModelYear="2018"},
+            new Car{BrandId=12,Id=20,ColorId=4,DailyPrice=100,Description="Sahibinden satlık 0 ayarında",ModelYear="2018"},
+            new Car{BrandId=13,Id=30,ColorId=5,DailyPrice=120,Description="Sahibinden satlık 0 ayarında",ModelYear="2018"},
+            new Car{BrandId=14,Id=40,ColorId=6,DailyPrice=180,Description="Sahibinden satlık 0 ayarında",ModelYear="2018"},
+            new Car{BrandId=15,Id=50,ColorId=7,DailyPrice=99,Description="Sahibinden satlık 0 ayarında",ModelYear="2018"},
+            new Car{BrandId=16,Id=60,ColorId=8,DailyPrice=100,Description="Sahibinden satlık 0 ayarında",ModelYear="2018"},
+            new Car{BrandId=17,Id=70,ColorId=3,DailyPrice=168,Description="Sahibinden satlık 0 ayarında",ModelYear="2018"},
+            new Car{BrandId=18,Id=80,ColorId=9,DailyPrice=125,Description="Sahibinden satlık 0 ayarında",ModelYear="2018"},
+            new Car{BrandId=19,Id=90,ColorId=10,DailyPrice=150,Description="Sahibinden satlık 0 ayarında",ModelYear="2018"},
+            new Car{BrandId=21,Id=100,ColorId=11,DailyPrice=128,Description="Sahibinden satlık 0 ayarında",ModelYear="2018"}
             };
         }
 

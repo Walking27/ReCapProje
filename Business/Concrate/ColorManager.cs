@@ -1,15 +1,19 @@
 ﻿using Business.Abstract;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
+using Entities.Concrate;
 using System;
 using System.Collections.Generic;
-using System.Drawing;
+
 using System.Text;
 
 namespace Business.Concrate
 {
     public class ColorManager : IColorSevice
     {
+
+        IColorDal _colorDal;
+
         public IResult Add(Color color)
         {
             throw new NotImplementedException();
@@ -22,7 +26,7 @@ namespace Business.Concrate
 
         public IDataResult<List<Color>> GetAll()
         {
-            throw new NotImplementedException();
+            return new SuccessDataResult<List<Color>>(_colorDal.GetAll());
         }
 
         public IDataResult<List<Color>> GetById(int color)

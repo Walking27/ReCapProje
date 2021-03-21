@@ -9,7 +9,6 @@ using System.Text;
 namespace DataAccess.Concrate.EntityFramwork
 {
     public class EfColorDal : EfEntityRepositoryBase<Color, CarRentalContext>, IColorDal
-    {
-        
+    {  
     }
 }

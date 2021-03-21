@@ -10,6 +10,9 @@ namespace Business.Concrate
 {
     public class BrandManager : IBrandService
     {
+
+        IBrandDal _brandDal;
+
         public IResult Add(Brand brand)
 
         {
@@ -23,7 +26,7 @@ namespace Business.Concrate
 
         public IDataResult<List<Brand>> GetAll()
         {
-            throw new NotImplementedException();
+            return new SuccessDataResult<List<Brand>>(_brandDal.GetAll());
         }
 
         public IDataResult<List<Brand>> GetById(int brand)

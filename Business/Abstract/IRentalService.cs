@@ -1,5 +1,6 @@
 ﻿using Core.Utilities.Results;
 using Entities.Concrate;
+using Entities.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Text;
