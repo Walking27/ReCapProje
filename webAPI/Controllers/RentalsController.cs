@@ -13,6 +13,11 @@ namespace webAPI.Controllers
     public class RentalsController : ControllerBase
     {
         private IRentalService _rentalService;
+
+        public RentalsController(IRentalService rentalService)
+        {
+            _rentalService = rentalService;
+        }
     }
     
 }

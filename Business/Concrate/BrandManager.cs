@@ -13,6 +13,11 @@ namespace Business.Concrate
 
         IBrandDal _brandDal;
 
+        public BrandManager(IBrandDal brandDal)
+        {
+            _brandDal = brandDal;
+        }
+
         public IResult Add(Brand brand)
 
         {

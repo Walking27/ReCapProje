@@ -26,8 +26,6 @@ namespace webAPI.Controllers
         public IActionResult GetAll() 
         {
 
-            Thread.Sleep(1000);
-
             var result = _carService.GetAll();
             if (result.Success)
             {
@@ -46,6 +44,18 @@ namespace webAPI.Controllers
             }
             return BadRequest(result);
         }
+        [HttpGet("getbybrand")]
+        public IActionResult GetByBrands(int brandId)
+        {
+            var result = _carService.GetAllByBrandId(brandId);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+
+
         [HttpGet("getcardetails")]
         public IActionResult GetCarImageDetails()
         {
@@ -56,6 +66,7 @@ namespace webAPI.Controllers
             }
             return BadRequest(result);
         }
+
         [HttpPost("add")]
         public IActionResult Add(Car car)
         {
@@ -63,6 +74,15 @@ namespace webAPI.Controllers
             var result = _carService.Add(car);
             return Ok(result);
         }
-        
+        [HttpGet("getbybrandandcolor")]
+        public IActionResult GetByBrandAndColor(int brandId, int colorId)
+        {
+            var result = _carService.GetAllByBrandIdAndColorId(brandId,colorId);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
     }
 }

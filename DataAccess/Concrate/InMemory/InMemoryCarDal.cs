@@ -1,4 +1,5 @@
-﻿using Core.Entities;
+﻿using Core.DataAccess;
+using Core.Entities;
 using DataAccess.Abstract;
 using Entities.Concrate;
 using System;
@@ -82,6 +83,36 @@ namespace DataAccess.Concrate.InMemory
             updatedToCar.ModelYear = car.ModelYear;
             updatedToCar.DailyPrice = car.DailyPrice;
             updatedToCar.Description = car.Description;
+        }
+
+        void IEntityRepository<Car>.Add(Car entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        void IEntityRepository<Car>.Delete(Car entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        Car IEntityRepository<Car>.Get(Expression<Func<Car, bool>> filter)
+        {
+            throw new NotImplementedException();
+        }
+
+        List<Car> IEntityRepository<Car>.GetAll(Expression<Func<Car, bool>> filter)
+        {
+            throw new NotImplementedException();
+        }
+
+        List<CarDetailDTO> ICarDal.GetCarDetails(Expression<Func<CarDetailDTO, bool>> filter)
+        {
+            throw new NotImplementedException();
+        }
+
+        void IEntityRepository<Car>.Update(Car entity)
+        {
+            throw new NotImplementedException();
         }
     }
 }

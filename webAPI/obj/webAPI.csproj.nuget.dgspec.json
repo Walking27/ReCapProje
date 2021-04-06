@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\y0551\\source\\repos\\ReCapProje\\webAPI\\webAPI.csproj": {}
+    "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\webAPI\\webAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Business\\Business.csproj": {
+    "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Business\\Business.csproj",
+        "projectUniqueName": "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Business\\Business.csproj",
-        "packagesPath": "C:\\Users\\y0551\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Business\\obj\\",
+        "projectPath": "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\Yusuf Özabuş\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\y0551\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Yusuf Özabuş\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\y0551\\source\\repos\\ReCapProje\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Entities\\Entities.csproj"
+              "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\Entities\\Entities.csproj"
               }
             }
           }
@@ -59,6 +59,14 @@
               "target": "Package",
               "version": "[9.5.1, )"
             },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -80,17 +88,17 @@
         }
       }
     },
-    "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Core\\Core.csproj": {
+    "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\y0551\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Core\\obj\\",
+        "projectPath": "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Yusuf Özabuş\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\y0551\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Yusuf Özabuş\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -132,6 +140,10 @@
               "target": "Package",
               "version": "[9.5.1, )"
             },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.11, )"
@@ -157,17 +169,17 @@
         }
       }
     },
-    "C:\\Users\\y0551\\source\\repos\\ReCapProje\\DataAccess\\DataAccess.csproj": {
+    "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\y0551\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Yusuf Özabuş\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\y0551\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Yusuf Özabuş\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -181,11 +193,11 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Core\\Core.csproj"
+              "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\Core\\Core.csproj"
               },
-              "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Entities\\Entities.csproj"
+              "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\Entities\\Entities.csproj"
               }
             }
           }
@@ -225,17 +237,17 @@
         }
       }
     },
-    "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Entities\\Entities.csproj": {
+    "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\y0551\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\Yusuf Özabuş\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\y0551\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Yusuf Özabuş\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -249,8 +261,8 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Core\\Core.csproj"
+              "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\Core\\Core.csproj"
               }
             }
           }
@@ -286,17 +298,17 @@
         }
       }
     },
-    "C:\\Users\\y0551\\source\\repos\\ReCapProje\\webAPI\\webAPI.csproj": {
+    "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\webAPI\\webAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\webAPI\\webAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\webAPI\\webAPI.csproj",
         "projectName": "webAPI",
-        "projectPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\webAPI\\webAPI.csproj",
-        "packagesPath": "C:\\Users\\y0551\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\webAPI\\obj\\",
+        "projectPath": "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\webAPI\\webAPI.csproj",
+        "packagesPath": "C:\\Users\\Yusuf Özabuş\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\webAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\y0551\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Yusuf Özabuş\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -310,17 +322,17 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Business\\Business.csproj": {
-                "projectPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Business\\Business.csproj"
+              "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\Business\\Business.csproj": {
+                "projectPath": "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\Business\\Business.csproj"
               },
-              "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Core\\Core.csproj"
+              "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\Core\\Core.csproj"
               },
-              "C:\\Users\\y0551\\source\\repos\\ReCapProje\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\DataAccess\\DataAccess.csproj"
+              "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Entities\\Entities.csproj"
+              "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\Entities\\Entities.csproj"
               }
             }
           }
@@ -338,6 +350,10 @@
             "Autofac.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[7.1.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.12, )"
             }
           },
           "imports": [

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Core\\Core.csproj": {}
+    "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Core\\Core.csproj": {
+    "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\y0551\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\y0551\\source\\repos\\ReCapProje\\Core\\obj\\",
+        "projectPath": "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Yusuf Özabuş\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yusuf Özabuş\\OneDrive\\Desktop\\Yeni klasör\\ReCapProje\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\y0551\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Yusuf Özabuş\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,6 +55,10 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[9.5.1, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",

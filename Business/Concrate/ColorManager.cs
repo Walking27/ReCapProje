@@ -14,6 +14,11 @@ namespace Business.Concrate
 
         IColorDal _colorDal;
 
+        public ColorManager(IColorDal colorDal)
+        {
+            _colorDal = colorDal;
+        }
+
         public IResult Add(Color color)
         {
             throw new NotImplementedException();

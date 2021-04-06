@@ -16,3 +16,12 @@ C:\Users\y0551\Source\Repos\ReCapProje\Core\obj\Debug\netstandard2.0\Core.Assemb
 C:\Users\y0551\Source\Repos\ReCapProje\Core\obj\Debug\netstandard2.0\Core.csproj.CoreCompileInputs.cache
 C:\Users\y0551\Source\Repos\ReCapProje\Core\obj\Debug\netstandard2.0\Core.dll
 C:\Users\y0551\Source\Repos\ReCapProje\Core\obj\Debug\netstandard2.0\Core.pdb
+C:\Users\Yusuf Özabuş\OneDrive\Desktop\Yeni klasör\ReCapProje\Core\bin\Debug\netstandard2.0\Core.deps.json
+C:\Users\Yusuf Özabuş\OneDrive\Desktop\Yeni klasör\ReCapProje\Core\bin\Debug\netstandard2.0\Core.dll
+C:\Users\Yusuf Özabuş\OneDrive\Desktop\Yeni klasör\ReCapProje\Core\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\Yusuf Özabuş\OneDrive\Desktop\Yeni klasör\ReCapProje\Core\obj\Debug\netstandard2.0\Core.csprojAssemblyReference.cache
+C:\Users\Yusuf Özabuş\OneDrive\Desktop\Yeni klasör\ReCapProje\Core\obj\Debug\netstandard2.0\Core.AssemblyInfoInputs.cache
+C:\Users\Yusuf Özabuş\OneDrive\Desktop\Yeni klasör\ReCapProje\Core\obj\Debug\netstandard2.0\Core.AssemblyInfo.cs
+C:\Users\Yusuf Özabuş\OneDrive\Desktop\Yeni klasör\ReCapProje\Core\obj\Debug\netstandard2.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\Yusuf Özabuş\OneDrive\Desktop\Yeni klasör\ReCapProje\Core\obj\Debug\netstandard2.0\Core.dll
+C:\Users\Yusuf Özabuş\OneDrive\Desktop\Yeni klasör\ReCapProje\Core\obj\Debug\netstandard2.0\Core.pdb
