@@ -31,7 +31,9 @@ namespace DataAccess.Concrate.EntityFramwork
                                  BrandName = b.BrandName,
                                  ModelYear = c.ModelYear,
                                  DailyPrice = c.DailyPrice,
-                                 Description = c.Description
+                                 CarName = c.CarName,
+                                 Images = (from i in context.CarImages where i.CarId == c.Id select i.ImagePath).ToList()
+                                 //Description = c.Description
                              };
                 return filter == null ? result.ToList() : result.Where(filter).ToList();
             }

@@ -16,8 +16,9 @@ namespace Business.Abstract
         IResult Delete(Car car);
         IDataResult<List<Car>> GetByUnitPrice(decimal min, decimal max);
         IDataResult<List<CarDetailDTO>> GetCarDetails();
-        IDataResult<List<Car>> GetAllByColorId(int colorId);
-        IDataResult<List<Car>> GetAllByBrandId(int brandId);
+        IDataResult<List<CarDetailDTO>> GetAllByColorId(int colorId);
+        IDataResult<List<CarDetailDTO>> GetAllByBrandId(int brandId);
+        IDataResult<List<CarDetailDTO>> GetCarDetailsById(int carId);
 
         IDataResult<List<CarDetailDTO>> GetAllByBrandIdAndColorId(int brandId,int colorId);
 

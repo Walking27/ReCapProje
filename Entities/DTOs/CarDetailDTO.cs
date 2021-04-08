@@ -8,6 +8,7 @@ namespace Core.Entities
     public class CarDetailDTO:IDto
     {
         public int CarId { get; set; }
+        public string CarName { get; set; }
         public string BrandName { get; set; }
         public string ColorName { get; set; }
         public string Description { get; set; }
@@ -15,6 +16,7 @@ namespace Core.Entities
         public decimal DailyPrice { get; set; }
         public int ColorId { get; set; }
         public int BrandId { get; set; }
+        public List<string> Images { get; set; }
 
 
     }

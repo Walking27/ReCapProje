@@ -69,7 +69,10 @@ namespace webAPI
             }
 
 
-	    // angular 4200 portunu kullandığı için oradan gelen tüm istekleri kabul et
+            // angular 4200 portunu kullandığı için oradan gelen tüm istekleri kabul et
+
+            app.UseStaticFiles();
+
             app.UseCors(builder => builder.WithOrigins("http://localhost:4200").AllowAnyHeader().AllowAnyOrigin());
 
             app.UseHttpsRedirection(); // sadece http kullanacaksak burası devre dışı
