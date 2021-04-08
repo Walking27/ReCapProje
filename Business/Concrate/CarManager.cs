@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Business.BusinessAspects.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Validation;
@@ -24,10 +25,11 @@ namespace Business.Concrate
         }
 
         [ValidationAspect(typeof(CarValidator))]
+        [SecuredOperation("car.add.admin")]
         public IResult Add(Car car)
         {
             //business code
-
+            
             _carDal.Add(car);
             return new SuccessResult("Araba Eklendi");
         }
