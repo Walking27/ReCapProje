@@ -64,6 +64,14 @@
               "target": "Package",
               "version": "[3.1.11, )"
             },
+            "Microsoft.IdentityModel": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.10.0, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
